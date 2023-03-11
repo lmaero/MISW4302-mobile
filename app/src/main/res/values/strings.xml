@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alarmas</string>
+    <string name="firstBackgroundDescription">A photo of the hand of a driver taken from the back seat</string>
+    <string name="phoneLabel">Regístrate con tu número de celular: </string>
+    <string name="helloFirstScreen">Hola!</string>
+    <string name="speakerIcon">An icon of a speaker, indicating that an audio is being reproduced</string>
+    <string name="continueButton">Continuar</string>
+</resources>
