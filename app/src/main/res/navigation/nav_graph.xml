@@ -6,7 +6,7 @@
     app:startDestination="@id/appHome">
     <fragment
         android:id="@+id/appHome"
-        android:name="com.example.alarmas.home"
+        android:name="com.example.alarmas.Home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
