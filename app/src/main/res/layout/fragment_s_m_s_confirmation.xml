@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="100"
-    tools:context=".home">
+    tools:context=".SMSConfirmation">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/helloFirstScreen" />
+            android:text="@string/helloSecondScreen" />
 
     </FrameLayout>
 
@@ -62,8 +62,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:text="@string/number_placeholder"
-            android:textColor="@color/gray_placeholder"
+            android:text="@string/number_placeholder_fill"
             android:id="@+id/phoneInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,6 +70,29 @@
             android:ems="10"
             android:fontFamily="@font/khula"
             android:inputType="phone"
+            android:padding="15dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/smsLabel"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/khula"
+            android:labelFor="@id/smsInput"
+            android:text="@string/smsLabel"
+            android:textSize="18sp" />
+
+        <EditText
+            android:text="@string/sms_placeholder"
+            android:textColor="@color/gray_placeholder"
+            android:id="@+id/smsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/khula"
+            android:inputType="number"
             android:padding="15dp"
             android:textSize="18sp" />
 

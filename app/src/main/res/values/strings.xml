@@ -2,7 +2,14 @@
     <string name="app_name">Alarmas</string>
     <string name="firstBackgroundDescription">A photo of the hand of a driver taken from the back seat</string>
     <string name="phoneLabel">Regístrate con tu número de celular: </string>
+    <string name="smsLabel">Mensaje de texto de confirmación: </string>
     <string name="helloFirstScreen">Hola!</string>
+    <string name="helloSecondScreen">Enfócate!</string>
+    <string name="helloThirdScreen">Bienvenido!</string>
     <string name="speakerIcon">An icon of a speaker, indicating that an audio is being reproduced</string>
     <string name="continueButton">Continuar</string>
+    <string name="number_placeholder">(XXX) XXX-XXXX</string>
+    <string name="number_placeholder_fill">(300) 313–1389</string>
+    <string name="sms_placeholder">X X X X</string>
+    <string name="sms_placeholder_fill">6 3 2 8</string>
 </resources>

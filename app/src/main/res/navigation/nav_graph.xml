@@ -8,5 +8,23 @@
         android:id="@+id/appHome"
         android:name="com.example.alarmas.home"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_appHome_to_SMSConfirmation"
+            app:destination="@id/SMSConfirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/SMSConfirmation"
+        android:name="com.example.alarmas.SMSConfirmation"
+        android:label="fragment_s_m_s_confirmation"
+        tools:layout="@layout/fragment_s_m_s_confirmation" >
+        <action
+            android:id="@+id/action_SMSConfirmation_to_welcome"
+            app:destination="@id/welcome" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.example.alarmas.Welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
 </navigation>
