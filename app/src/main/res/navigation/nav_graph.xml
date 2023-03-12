@@ -26,5 +26,23 @@
         android:id="@+id/welcome"
         android:name="com.example.alarmas.Welcome"
         android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" />
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcome_to_record"
+            app:destination="@id/record" />
+    </fragment>
+    <fragment
+        android:id="@+id/record"
+        android:name="com.example.alarmas.Record"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" >
+        <action
+            android:id="@+id/action_record_to_recording"
+            app:destination="@id/recording" />
+    </fragment>
+    <fragment
+        android:id="@+id/recording"
+        android:name="com.example.alarmas.Recording"
+        android:label="fragment_recording"
+        tools:layout="@layout/fragment_recording" />
 </navigation>
