@@ -15,6 +15,8 @@
     <string name="sms_placeholder">X X X X</string>
     <string name="sms_placeholder_fill">6 3 2 8</string>
     <string name="rainBackground">A decorative background that simulates rain</string>
+    <string name="linesBackground">A decorative background with lines of multiple stroke width, fading down vertically</string>
     <string name="firstRecord">Grabemos tu primera alarma!</string>
     <string name="recording">Grabando…</string>
+    <string name="confirmation">Confirmando…</string>
 </resources>

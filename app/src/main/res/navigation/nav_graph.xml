@@ -44,5 +44,14 @@
         android:id="@+id/recording"
         android:name="com.example.alarmas.Recording"
         android:label="fragment_recording"
-        tools:layout="@layout/fragment_recording" />
+        tools:layout="@layout/fragment_recording" >
+        <action
+            android:id="@+id/action_recording_to_confirmation"
+            app:destination="@id/confirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmation"
+        android:name="com.example.alarmas.Confirmation"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
 </navigation>
