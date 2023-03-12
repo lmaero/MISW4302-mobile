@@ -53,5 +53,14 @@
         android:id="@+id/confirmation"
         android:name="com.example.alarmas.Confirmation"
         android:label="fragment_confirmation"
-        tools:layout="@layout/fragment_confirmation" />
+        tools:layout="@layout/fragment_confirmation" >
+        <action
+            android:id="@+id/action_confirmation_to_overview"
+            app:destination="@id/overview" />
+    </fragment>
+    <fragment
+        android:id="@+id/overview"
+        android:name="com.example.alarmas.Overview"
+        android:label="fragment_overview"
+        tools:layout="@layout/fragment_overview" />
 </navigation>

@@ -1,12 +1,14 @@
 <resources>
     <string name="app_name">Alarmas</string>
     <string name="firstBackgroundDescription">A photo of the hand of a driver taken from the back seat</string>
+    <string name="mapBackgroundDescription">A map of a city with a highlighted point</string>
     <string name="phoneLabel">Regístrate con tu número de celular: </string>
     <string name="smsLabel">Mensaje de texto de confirmación: </string>
     <string name="helloFirstScreen">Hola!</string>
     <string name="helloSecondScreen">Enfócate!</string>
     <string name="helloThirdScreen">Bienvenido!</string>
     <string name="speakerIcon">An icon of a speaker, indicating that an audio is being reproduced</string>
+    <string name="checkIcon">An icon with a checkmark, indicating a successful process</string>
     <string name="micIcon">An icon of a microphone, indicating that no audio is being recorded at this moment</string>
     <string name="micIconRecording">An icon of a microphone, indicating that an audio is being recorded at this moment</string>
     <string name="continueButton">Continuar</string>
@@ -19,4 +21,6 @@
     <string name="firstRecord">Grabemos tu primera alarma!</string>
     <string name="recording">Grabando…</string>
     <string name="confirmation">Confirmando…</string>
+    <string name="seeAlarms">Ver tus alarmas</string>
+    <string name="recordingConfirmation">Tu alarma fue grabada correctamente, debes recoger a Luis Miguel en Lucca a las 9pm</string>
 </resources>
