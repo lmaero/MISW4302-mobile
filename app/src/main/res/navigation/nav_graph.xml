@@ -62,5 +62,14 @@
         android:id="@+id/overview"
         android:name="com.example.alarmas.Overview"
         android:label="fragment_overview"
-        tools:layout="@layout/fragment_overview" />
+        tools:layout="@layout/fragment_overview" >
+        <action
+            android:id="@+id/action_overview_to_alarmsList"
+            app:destination="@id/alarmsList" />
+    </fragment>
+    <fragment
+        android:id="@+id/alarmsList"
+        android:name="com.example.alarmas.AlarmsList"
+        android:label="fragment_alarms_list"
+        tools:layout="@layout/fragment_alarms_list" />
 </navigation>

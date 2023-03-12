@@ -22,5 +22,18 @@
     <string name="recording">Grabando…</string>
     <string name="confirmation">Confirmando…</string>
     <string name="seeAlarms">Ver tus alarmas</string>
+    <string name="alarmsTitle">Tus alarmas</string>
     <string name="recordingConfirmation">Tu alarma fue grabada correctamente, debes recoger a Luis Miguel en Lucca a las 9pm</string>
+    <string name="nameItem1">Luis Miguel</string>
+    <string name="locationItem1">Conjunto Lucca</string>
+    <string name="hourItem1">9pm</string>
+    <string name="nameItem2">Diego</string>
+    <string name="locationItem2">Bucaramanga</string>
+    <string name="hourItem2">3pm</string>
+    <string name="nameItem3">Camilo</string>
+    <string name="locationItem3">Sienna</string>
+    <string name="hourItem3">1am</string>
+    <string name="nameItem4">Ramiro</string>
+    <string name="locationItem4">Firenze</string>
+    <string name="hourItem4">1pm</string>
 </resources>
