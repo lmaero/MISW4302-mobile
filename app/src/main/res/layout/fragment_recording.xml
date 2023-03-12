@@ -44,7 +44,7 @@
                 android:layout_height="300dp"
                 android:layout_gravity="center"
                 app:cardBackgroundColor="@color/app_blue"
-                app:cardCornerRadius="300dp">
+                app:cardCornerRadius="150dp">
 
                 <ImageView
                     android:id="@+id/micIcon"

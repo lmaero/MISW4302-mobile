@@ -36,14 +36,14 @@
             android:layout_height="300dp"
             android:layout_marginBottom="40dp"
             android:layout_gravity="center"
-            app:cardBackgroundColor="@color/white"
+            android:backgroundTint="@color/white"
             app:cardCornerRadius="300dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                app:cardCornerRadius="300dp">
+                app:cardCornerRadius="150dp">
 
                 <ImageView
                     android:id="@+id/micIcon"
